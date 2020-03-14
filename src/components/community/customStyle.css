@@ -1,0 +1,30 @@
+.card {
+    float: left;
+    width: 22%;
+  }
+  .card-img,
+  .card-img-top {
+    height: 300px;
+  }
+  .card-title {
+    min-height: 45px;
+  }
+  .card-body {
+    background: #f6f6f6b3;
+}
+  .card-title {
+     color: #429798;
+}
+
+  @media only screen and (max-width: 768px) {
+    .card {
+        float: left;
+        width: 95%;
+      }
+  }
+  @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .card {
+        float: left;
+        width: 46% !important;
+      }
+  }
